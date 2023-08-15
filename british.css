@@ -1,0 +1,28 @@
+.Country{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;   
+}
+.vintage{
+    width: 20%;
+    flex-basis: 30%;
+    margin: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    transition: .4s;
+}
+.vintage:hover{
+    transform: translate(0px, -8px);
+}
+.vintage-img{
+    width: 300px;
+    height: 200px;
+    display:flex;
+}
+.vintage-img:hover{
+    transform: scale(10.5rem);
+}

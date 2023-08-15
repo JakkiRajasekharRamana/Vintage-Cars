@@ -1,0 +1,80 @@
+/* Pre-login Popup Styles */
+.pre-login-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.popup-content {
+    background-color: #abf8f8; /* Changed the background color */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+}
+
+.popup-content h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #e74c3c; /* Red color */
+}
+
+.popup-content p {
+    font-size: 18px;
+    margin: 12px 0;
+    color: #555;
+    line-height: 1.6;
+}
+
+.popup-content pre {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #777;
+    white-space: pre-wrap;
+    text-align: left;
+    font-style: italic;
+}
+
+.popup-content pre::before {
+    content: "❝"; /* Quotation mark */
+    margin-right: 5px;
+    font-size: 30px;
+    color: #333;
+}
+
+.popup-content pre::after {
+    content: "❞"; /* Quotation mark */
+    margin-left: 5px;
+    font-size: 30px;
+    color: #333;
+}
+
+.popup-content pre:last-child {
+    margin-bottom: 0;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #888;
+    transition: color 0.3s ease-in-out;
+}
+
+.close-button:hover {
+    color: #333;
+}
