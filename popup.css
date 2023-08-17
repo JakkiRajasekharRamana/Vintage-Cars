@@ -1,4 +1,3 @@
-/* Pre-login Popup Styles */
 .pre-login-popup {
     display: none;
     position: fixed;
@@ -11,7 +10,7 @@
 }
 
 .popup-content {
-    background-color: #abf8f8; /* Changed the background color */
+    background-color: #abf8f8; 
     position: absolute;
     top: 50%;
     left: 50%;
@@ -46,14 +45,14 @@
 }
 
 .popup-content pre::before {
-    content: "❝"; /* Quotation mark */
+    content: "❝"; 
     margin-right: 5px;
     font-size: 30px;
     color: #333;
 }
 
 .popup-content pre::after {
-    content: "❞"; /* Quotation mark */
+    content: "❞"; 
     margin-left: 5px;
     font-size: 30px;
     color: #333;
